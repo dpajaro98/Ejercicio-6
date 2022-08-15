@@ -1,13 +1,10 @@
-let vida=[
+const vida=new Set([
     "Rafael Pajaro",
     "Ederselis Miranda",
     "Darien Pajaro Miranda"
-]
-let family=new Set(vida)
-let modificar=family.add("Darien Rafael Pajaro")
-console.log(modificar)
-let mod=family.add("javascript")
-console.log(mod)
+])
+vida.add("darien R pajaro")
+vida.add("javascript")
 
 
 // Crea un archivo llamado conjuntos.js que contenga las siguientes líneas
