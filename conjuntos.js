@@ -5,7 +5,7 @@ const vida=new Set([
 ])
 vida.add("darien R pajaro")
 vida.add("javascript")
-
+console.log(vida)
 
 // Crea un archivo llamado conjuntos.js que contenga las siguientes líneas
 
